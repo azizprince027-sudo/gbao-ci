@@ -6,46 +6,40 @@
 
 html {
     /* On ramène la base à 10px (62.5% de 16px) */
-    font-size: 62.5%; 
+    font-size: 62.5%;
 }
 
 body {
-font-family: poppins;
-
-
+    font-family: poppins;
 }
+
 
 /* header debut */
 
 header {
-
-        height: 13.8rem;
-        width: 100%;
-        background: #ff7700;
-        background: linear-gradient(96deg, rgba(255, 119, 0, 0.75) 26%, rgba(255, 255, 255, 1) 100%);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-left: 9rem;
-        padding-right: 9rem;
-        
-
+    height: 13.8rem;
+    width: 100%;
+    background: #ff7700;
+    background: linear-gradient(96deg, rgba(255, 119, 0, 0.75) 26%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 9rem;
+    padding-right: 9rem;
 }
 
 .gbao {
     height: 6.4rem;
     width: 11.7rem;
-    border: 3px  yellow;
-    background-image:url(./images/logo\ gbao.png);
+    border: 3px yellow;
+    background-image: url(./images/logo\ gbao.png);
     border-radius: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
-    .info {
-
+.info {
     height: 4.8rem;
     width: 10.9rem;
     background-color: #ff7700;
@@ -54,129 +48,316 @@ header {
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.175);
-    
-    }
+}
 
-    .info a {
-                
-                text-decoration: none;
-                font-family: poppins;
-                font-weight: 500;
-                font-size:2rem ;margin: 10px;
-                padding: 15px 45px;
-                text-align: center;
-                text-transform:up;
-                transition: 0.5s;
-                background-size: 200% auto;
-                color: white;
-                box-shadow: 0 0 1rem #11101058;
-                border-radius: 10px;
-                display: block;
-                outline: none;
-                border: none;
-                background-image: linear-gradient(to right, #f46b45 2%, #eea849 51%, #4ef445 100%);
-    }
+.info a {
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: up;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 1rem #11101058;
+    border-radius: 10px;
+    display: block;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #f46b45 2%, #eea849 51%, #4ef445 100%);
+}
 
-    nav ul {
+nav ul {
     display: flex;
     justify-content: space-around;
     gap: 30rem;
+}
 
-    }
-
-    nav ul li {
+nav ul li {
     list-style: none;
+}
 
-    }
-
-    li a {
+li a {
     color: black;
     text-decoration: none;
     font-family: poppins;
     font-size: 2.5rem;
+}
+
+.info :hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
 
 
-    }
-
-            .info :hover {
-            background-position: right center;
-            color: #fff;
-            text-decoration: none;
-            }
-
-            a:hover { color: green;}
-            /* header fin */
-
-        .hero1 {
-
-        height: 99.1rem;
-        width: 100%;
-        background-image: linear-gradient(#0000008d),url(./images/cover1.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-
-        }
-
-                .T1 {
-
-                    height: 19rem;
-                    width: 50%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+/* header fin */
 
 
-                 border: 3px solid white;
+/*debut du hero dans lordre*/
 
-                }
+.hero1 {
+    height: 99.1rem;
+    width: 100%;
+    background-image: linear-gradient(#0000008d), url(./images/cover1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
 
-                 .T1 h1 {
-                    font-family: poppins;
-                    font-size: 4rem;
-                    font-weight: 400;
-                    color: #ffffff79;
-                 }
+.T1 {
+    height: 24rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-                .T2 {
-                    height: 4rem;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    border: 3px solid rgb(201, 11, 11);
+.T1 h1 {
+    font-family: poppins;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #ffffff79;
+}
 
-                }
+.T2 {
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-                .T2 h1 { 
-                    font-family: poppins;
-                    font-size: 3.6rem;
-                    font-weight: 400;
-                    color: #fff;
-                }
+.T2 h1 {
+    font-family: poppins;
+    font-size: 3.6rem;
+    font-weight: 400;
+    color: #fff;
+}
 
-                .T3 {
-                    height: 29rem;
-                    display: flex;
-                    justify-content: center;
-                    
+.T3 {
+    height: 19rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-                 border: 3px solid rgb(28, 83, 203);
+.TA {
+    height: 10rem;
+    width: 22%;
+    border-radius: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 51%, #56ab2f 100%);
+}
 
-                }
+.TA a {
+    color: #ffffff;
+    font-family: poppins;
+    font-size: 2.4rem;
+    font-weight: 350;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #000000;
+    border-radius: 10px;
+    display: block;
+    outline: none;
+    border: none;
+}
 
-                .TA {
+.Tbb {
+    height: 10rem;
+    width: 22%;
+    border-radius: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #f07410 0%, #f3b50a 51%, #ff9100fb 100%);
+    border: 2px solid #ff7700;
+}
 
-                    border: 3px solid yellow;
+.Tbb a {
+    color: #ffffff;
+    font-family: poppins;
+    font-size: 2.4rem;
+    font-weight: 350;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #ffffff9a;
+    border-radius: 10px;
+    display: block;
+    outline: none;
+    border: none;
+}
+
+.TA a:hover {
+    background-position: right center;
+    color: #fff;
+}
+
+.TA :hover {
+    background-image: linear-gradient(#00000028), url(./images/img\ concoures.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5rem;
+}
+
+.Tbb a:hover {
+    background-position: right center;
+    color: #fff;
+}
+
+.Tbb:hover {
+    background-image: linear-gradient(#00000028), url(./images/img\ bourses.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5rem;
+}
 
 
-                }
-                
-                .TB {
-
-                    border: 3px black;
+/* fin du hero */
 
 
-                }
+/* debut de la section concoures */
+
+.sect1 {
+    height: 70rem;
+    border: 3px solid yellow;
+    flex-wrap: wrap;
+}
+
+.txt1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 7.9rem;
+    flex-wrap: wrap;
+}
+
+.txt1 h1 {
+    font-family: poppins;
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+
+/* la partir des 3 div concoures */
+
+.bg {
+    height: 50rem;
+    border: 3px solid rgb(13, 206, 13);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.bc3 {
+    display: flex;
+    height: 90%;
+    width: 25%;
+    border-radius: 4.8rem 4.8rem 0rem 0rem;
+    box-shadow: 0rem 0rem 0.5rem 0rem black;
+    display: flex;
+    flex-direction: column;
+}
+
+.bcc3 {
+    height: 45%;
+    width: 100%;
+    border-radius: 4.8rem 4.8rem 0rem 0rem;
+    background-image: url(./images/Cafop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bcc4 {
+    height: 45%;
+    width: 100%;
+    border-radius: 4.8rem 4.8rem 0rem 0rem;
+    background-image: url(./images/ENA.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bcc5 {
+    height: 45%;
+    width: 100%;
+    border-radius: 4.8rem 4.8rem 0rem 0rem;
+    background-image: url(./images/inphb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ba1 {
+    border: 2px solid violet;
+    height: 53%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.plus {
+    border: 2px solid red;
+    height: 5.3rem;
+    width: 45%;
+    border-radius: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ba1 h1 {
+    font-size: 5rem;
+    font-family: poppins;
+    font-weight: 400;
+}
+
+.ba1 p {
+    font-family: poppins;
+    font-size: 1.9rem;
+}
+
+.plus a {
+    text-decoration: none;
+    color: rgb(175, 32, 32);
+    font-family: poppins;
+    font-size: 2rem;
+}
+
+.bc3:hover {
+    box-shadow: 0 0 5rem black;
+}

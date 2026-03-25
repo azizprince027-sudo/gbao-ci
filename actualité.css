@@ -1,0 +1,461 @@
+ * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html {
+            /* On ramène la base à 10px (62.5% de 16px) */
+            font-size: 62.5%;
+        }
+
+        body {
+            font-family: poppins;
+        }
+
+        /* header debut */
+
+        header {
+            height: 13.8rem;
+            width: 100%;
+            background: #ff7700;
+            background: linear-gradient(96deg, rgba(255, 119, 0, 0.75) 26%, rgba(255, 255, 255, 1) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 9rem;
+            padding-right: 9rem;
+        }
+
+        .gbao {
+            height: 9.4rem;
+            width: 9%;
+            background-image: url(./images/logo\ gbao.png);
+            border-radius: 10px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gbao a {
+            font-size: 5.2rem;
+            color: transparent;
+        }
+
+        .gbao a:hover {
+            color: transparent;
+        }
+
+        span {
+            color: green;
+        }
+
+        .info {
+            height: 4.8rem;
+            width: 10.9rem;
+            background-color: #ff7700;
+            border-radius: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.175);
+        }
+
+        .info a {
+            text-decoration: none;
+            font-family: poppins;
+            font-weight: 500;
+            font-size: 2rem;
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: up;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 1rem #11101058;
+            border-radius: 10px;
+            display: block;
+            outline: none;
+            border: none;
+            background-image: linear-gradient(to right, #f46b45 2%, #eea849 51%, #4ef445 100%);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            gap: 30rem;
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        li a {
+            color: black;
+            text-decoration: none;
+            font-family: poppins;
+            font-size: 2.5rem;
+        }
+
+        .info :hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: green;
+        }
+
+        /* header fin */
+        /*debut du hero dans lordre*/
+
+        .hero1 {
+            height: 99.1rem;
+            width: 100%;
+            background-image: linear-gradient(#0000008d), url(./images/img\ actualité.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+
+        .T1 {
+            height: 24rem;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .T1 h1 {
+            font-family: poppins;
+            font-size: 4rem;
+            font-weight: 400;
+            color: #ffffff79;
+        }
+
+        .T2 {
+            height: 9rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .T2 h1 {
+            font-family: poppins;
+            font-size: 3.6rem;
+            font-weight: 400;
+            color: #fff;
+        }
+
+          .txt1 {
+            border: 2px solid blue;
+            display: flex;
+            justify-content: center;
+            padding-top: 7.9rem;
+            flex-wrap: wrap;
+        }
+
+        .txt1 h1 {
+            font-family: poppins;
+            font-size: 5rem;
+            font-weight: 300;
+        }
+
+        /* fin du hero */
+          /* debut de la section 3 */
+
+         .sect3 {
+
+            height: 93rem;
+            margin-top: 3rem; 
+            
+         }
+
+         .C1  {
+
+            height: 83%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+         }
+
+         .c1 {
+
+            border: 2px solid silver;
+            height: 70%;
+            width: 23%;
+            border-radius: 1.8rem;
+            box-shadow: 0 0 1rem #000000;
+
+         }
+/* images blaises pascales */
+         .cc1 {
+
+            height: 55%;
+            border-radius: 1.8rem 1.8rem 0 0;
+            background-image: url(./images/img\ Blaises\ Pascal.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+         }
+
+         .cc2 {
+
+            border-radius: 0rem 0rem 1.8rem 1.8rem;
+            height: 45%;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            padding-top: 1%;
+
+         }
+
+         .cc2 h1 {
+
+            text-decoration:underline ;
+         }
+
+         .cc2 p {
+
+            font-family: poppins;
+            font-size: 2rem;
+            margin-top: 2%;
+            text-align: center;
+            color: #000000b0;
+
+         }
+
+         .cc3 {
+
+            margin-top: 2%;
+            width: 100%;
+            border-radius: 0rem 0rem 1.8rem 1.8rem;
+            height: 55%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            padding-right: 3%;
+            flex-wrap: wrap;
+
+         } 
+
+         .cc4 {
+
+            width: 30%;
+            height: 30%;
+            background-image: linear-gradient(to right, #ab6d2f 0%, #a8e063 51%, #050605 100%);
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 3rem;
+            display: block;
+            outline: none;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+         } 
+
+         .cc4:hover {
+
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+
+         }
+
+         .cc4 a:hover {
+            background-position: right center;
+            color: #ffffffcf; 
+        }
+
+        .cc4 a {
+
+                color: #000000;
+                text-decoration: none;
+                font-family: poppins;
+                font-size: 1.5rem;
+            }
+
+            .cc22 {
+
+            height: 55%;
+            border-radius: 1.8rem 1.8rem 0 0;
+            background-image: url(./images/img\ reforme\ stage.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+         }
+
+         .cc33 {
+
+            height: 55%;
+            border-radius: 1.8rem 1.8rem 0 0;
+            background-image: url(./images/img\ internatinale.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+         }
+
+          .CC1 { 
+
+                height: 20%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            /* fin de la section3 */
+
+         footer {
+
+                    height: 60rem;
+                    background: #ff7b00c5;
+                    background: linear-gradient(90deg, rgba(255, 123, 0, 0.747) 20%, rgba(181, 179, 179, 1) 52%, rgba(23, 199, 0, 1) 97%);
+
+        }
+
+        .F1 {
+            
+            height: 80%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            
+
+        }
+
+        .f1 {
+
+            height: 80%;
+            width: 30%;
+             display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding-top: 2rem;
+          
+        }
+
+        
+
+        .logo {
+
+                height: 9.4rem;
+                width: 22%;
+                background-image: url(./images/logo\ gbao.png);
+                border-radius: 10px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+        }
+
+        .ic {
+           
+            font-size: 3.4rem;
+            margin-left: 2%;
+
+        }
+
+        .f2 {
+
+            height: 80%;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding-top: 2rem;
+            
+          
+        }
+
+        .f2 a {
+
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.9rem;
+            font-family: poppins;
+
+        }
+
+        .f2 h1 {
+
+            font-family: poppins;
+            font-size: 3rem;
+
+
+        }
+
+        .f3 {
+
+            height: 80%;
+            width: 30%;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            padding-top: 2rem;
+             
+          
+        }
+
+        .f3 p {
+
+            font-family: poppins;
+            font-size: 2rem;
+            margin-left:  2rem;
+            color: rgba(0, 0, 0, 0.51);
+
+
+        }
+
+        .f3 h1 {
+
+            font-family: poppins;
+            font-size: 4rem;
+        }
+
+        .F2 {
+
+            height: 20%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .F22 {
+
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .F22 h1 {
+            color: #fff;
+            font-family: poppins;
+            font-weight: 300;
+        }
+/* fin du code aceuille */

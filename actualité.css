@@ -158,7 +158,6 @@
         }
 
           .txt1 {
-            border: 2px solid blue;
             display: flex;
             justify-content: center;
             padding-top: 7.9rem;
@@ -172,13 +171,11 @@
         }
 
         /* fin du hero */
-          /* debut de la section 3 */
-
+ /* debut de la section 3 */
          .sect3 {
 
             height: 93rem;
             margin-top: 3rem; 
-            
          }
 
          .C1  {
@@ -214,11 +211,12 @@
          .cc2 {
 
             border-radius: 0rem 0rem 1.8rem 1.8rem;
-            height: 45%;
+            height: 55%;
             flex-direction: column;
             display: flex;
             align-items: center;
             padding-top: 1%;
+            flex-wrap: wrap;
 
          }
 
@@ -234,67 +232,9 @@
             margin-top: 2%;
             text-align: center;
             color: #000000b0;
-
-         }
-
-         .cc3 {
-
-            margin-top: 2%;
-            width: 100%;
-            border-radius: 0rem 0rem 1.8rem 1.8rem;
-            height: 55%;
-            display: flex;
-            justify-content: end;
-            align-items: center;
-            padding-right: 3%;
             flex-wrap: wrap;
 
-         } 
-
-         .cc4 {
-
-            width: 30%;
-            height: 30%;
-            background-image: linear-gradient(to right, #ab6d2f 0%, #a8e063 51%, #050605 100%);
-            margin: 10px;
-            padding: 15px 45px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: white;
-            box-shadow: 0 0 20px #eee;
-            border-radius: 3rem;
-            display: block;
-            outline: none;
-            border: none;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-           
-         } 
-
-         .cc4:hover {
-
-        background-position: right center;
-        color: #fff;
-        text-decoration: none;
-
          }
-
-         .cc4 a:hover {
-            background-position: right center;
-            color: #ffffffcf; 
-        }
-
-        .cc4 a {
-
-                color: #000000;
-                text-decoration: none;
-                font-family: poppins;
-                font-size: 1.5rem;
-            }
-
             .cc22 {
 
             height: 55%;
@@ -324,10 +264,13 @@
                 justify-content: center;
                 align-items: center;
 
+                
             }
 
-            /* fin de la section3 */
+        
+        /* fin de la section3 */
 
+        
          footer {
 
                     height: 60rem;
@@ -394,7 +337,7 @@
 
             color: #fff;
             text-decoration: none;
-            font-size: 1.9rem;
+            font-size: 2.9rem;
             font-family: poppins;
 
         }

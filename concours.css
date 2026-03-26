@@ -196,7 +196,6 @@
             font-size: 2.4rem;
             font-weight: 350;
             text-decoration: none;
-        
         }
 
         .Tbb a:hover {
@@ -217,18 +216,13 @@
         /* debut de la section concoures */
 
         .sect1 {
-border: 2px solid red;
-            height: 190rem;
+
+            height: 250rem;
             flex-wrap: wrap;
-            flex-direction: column;
-            display: flex;
-            justify-content: space-between;
-            
 
         }
 
         .txt1 {
-            border: 2px solid blue;
             display: flex;
             justify-content: center;
             padding-top: 7.9rem;
@@ -241,12 +235,11 @@ border: 2px solid red;
             font-weight: 300;
         }
 
-
         /* la partir des 3 div concoures */
 
         .bg {
-border: 2px solid green;
-            height: 60%;
+            /* contener dans lequelle les trois div sont stoker */
+            height: 85%;
             flex-wrap: wrap;
             align-items: center;
             justify-content: space-around;
@@ -254,22 +247,20 @@ border: 2px solid green;
         }
 
         .bc3 {
-border: 2px solid palevioletred;
+            /* div qui contient les images et texte ena, infas, inp */
             display: flex;
-            height: 95%;
+            height: 83%;
             width: 25%;
             border-radius: 4.8rem 4.8rem 0rem 0rem;
             box-shadow: 0rem 0rem 0.5rem 0rem black;
             display: flex;
             flex-direction: column;
             margin-top: 2%;
-
         }
 
         .bcc3 {
-border: 2px solid orange;
-            height: 45%;
-            width: 100%;
+            /* div de l immages ena */
+            height: 25%;
             border-radius: 4.8rem 4.8rem 0rem 0rem;
             background-image: url(./images/Cafop.jpg);
             background-position: center;
@@ -278,9 +269,8 @@ border: 2px solid orange;
         }
 
         .bcc4 {
-border: 2px solid rgb(7, 40, 125);
-            height: 45%;
-            width: 100%;
+            /* div de l immages infas */
+            height: 25%;
             border-radius: 4.8rem 4.8rem 0rem 0rem;
             background-image: url(./images/ENA.png);
             background-position: center;
@@ -289,9 +279,8 @@ border: 2px solid rgb(7, 40, 125);
         }
 
         .bcc5 {
-border: 2px solid rgb(10, 54, 64);
-            height: 45%;
-            width: 100%;
+            /* div de l immages infas */
+            height: 25%;
             border-radius: 4.8rem 4.8rem 0rem 0rem;
             background-image: url(./images/inphb.jpg);
             background-position: center;
@@ -300,39 +289,14 @@ border: 2px solid rgb(10, 54, 64);
         }
 
         .ba1 {
-            /* parti text dans le conncour div 1 */
-            border: 2px solid black;
-            height: 53%;
+            /* parti text dans le titres ena div 1 /2/3*/
+            height: 63%;
             flex-wrap: wrap;
             flex-direction: column;
             display: flex;
             align-items: center;
-            justify-content: space-evenly;
-        }
-
-        .plus {
-border: 2px solid rgb(102, 34, 34);
-            height: 5.3rem;
-            width: 45%;
-            border-radius: 15rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 10px;
-            padding: 15px 45px;
-            text-align: center;
-            text-transform: uppercase;
-            transition: 0.5s;
-            background-size: 200% auto;
-            color: white;
-            box-shadow: 0 0 20px #eee;
-            border-radius: 10px;
-            display: block;
-            outline: none;
-            border: none;
-            background-image: linear-gradient(to right, #c21500 0%, #ffc500 51%, #c26e00 100%);
-            flex-wrap: wrap;
-
+            padding: 3%;
+            
         }
 
         .ba1 h1 {
@@ -340,47 +304,32 @@ border: 2px solid rgb(102, 34, 34);
             font-size: 5rem;
             font-family: poppins;
             font-weight: 400;
+            text-decoration: underline;
         }
 
         .ba1 p {
 
             font-family: poppins;
-            font-size: 1.9rem;
-        }
-
-        .plus a {
-
-            text-decoration: none;
-            color: #fff;
-            font-family: poppins;
-            font-size: 2rem;
-            
+            font-size: 2.9rem;
+            padding: 3%;
         }
 
         .bc3:hover {
 
             box-shadow: 0 0 5rem black;
-            
         }
 
-        .plus:hover {
-
-        background-position: right center;
-        color: #fff;
-        text-decoration: none;
-        }
         /* partie bouton concoures */
-        .btc {
 
+        .btc {
+/* div qui contient le bouton */
                 height: 20%;
                 display: flex;
                 justify-content: center;
-                align-items: center;
-
         }
 
         .btc1 {
-            
+            /* div qui contient le lien */
                     height: 9.3rem;
                     width: 19%;
                     border-radius: 3rem;
@@ -401,33 +350,157 @@ border: 2px solid rgb(102, 34, 34);
                     align-items: center;
                     justify-content: center;
                     flex-wrap: wrap;
-
-
         }
 
         .btc1 a {
-
                 color: #000000;
                 text-decoration: none;
                 font-family: poppins;
                 font-size: 2.2rem;
-        
-
         }
 
         .btc1:hover {
-
                     background-position: right center;
                     color: #fff;
-                    background-image: linear-gradient(#00000028), url(./images/img\ concoures.jpg);
+                    background-image: linear-gradient(#00000028), url(./images/img\ bourses.jpeg);
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
                     border-radius: 1.5rem;
                     box-shadow: 0 0 2rem yellowgreen;
-        
         }
 
         .btc1 a:hover {color: #fff;}
-
         /* fin de la section concoures */
+        footer {
+
+                    height: 60rem;
+                    background: #ff7b00c5;
+                    background: linear-gradient(90deg, rgba(255, 123, 0, 0.747) 20%, rgba(181, 179, 179, 1) 52%, rgba(23, 199, 0, 1) 97%);
+
+        }
+
+        .F1 {
+            
+            height: 80%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            
+
+        }
+
+        .f1 {
+
+            height: 80%;
+            width: 30%;
+             display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            padding-top: 2rem;
+          
+        }
+
+        
+
+        .logo {
+
+                height: 9.4rem;
+                width: 22%;
+                background-image: url(./images/logo\ gbao.png);
+                border-radius: 10px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+        }
+
+        .ic {
+           
+            font-size: 3.4rem;
+            margin-left: 2%;
+
+        }
+
+        .f2 {
+
+            height: 80%;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding-top: 2rem;
+            
+          
+        }
+
+        .f2 a {
+
+            color: #fff;
+            text-decoration: none;
+            font-size: 2.9rem;
+            font-family: poppins;
+
+        }
+
+        .f2 h1 {
+
+            font-family: poppins;
+            font-size: 3rem;
+
+
+        }
+
+        .f3 {
+
+            height: 80%;
+            width: 30%;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            padding-top: 2rem;
+             
+          
+        }
+
+        .f3 p {
+
+            font-family: poppins;
+            font-size: 2rem;
+            margin-left:  2rem;
+            color: rgba(0, 0, 0, 0.51);
+
+
+        }
+
+        .f3 h1 {
+
+            font-family: poppins;
+            font-size: 4rem;
+        }
+
+        .F2 {
+
+            height: 20%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .F22 {
+
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .F22 h1 {
+            color: #fff;
+            font-family: poppins;
+            font-weight: 300;
+        }
+/* fin du code aceuille */
+

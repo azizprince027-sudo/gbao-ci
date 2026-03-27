@@ -1,0 +1,213 @@
+  * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html {
+            /* On ramène la base à 10px (62.5% de 16px) */
+            font-size: 62.5%;
+        }
+
+        body {
+            font-family: poppins;
+        }
+
+
+        /* header debut */
+
+        header {
+            height: 13.8rem;
+            width: 100%;
+            background: #ff7700;
+            background: linear-gradient(96deg, rgba(255, 119, 0, 0.75) 26%, rgba(255, 255, 255, 1) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 9rem;
+            padding-right: 9rem;
+        }
+
+        .gbao {
+            height: 9.4rem;
+            width: 9%;
+            background-image: url(./images/logo\ gbao.png);
+            border-radius: 10px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+          .gbao a {
+            font-size: 5.2rem;
+            color: transparent;
+        }
+
+        .gbao a:hover {
+            color: transparent;
+        }
+
+        .info {
+            height: 4.8rem;
+            width: 10.9rem;
+            background-color: #ff7700;
+            border-radius: 13px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.175);
+        }
+
+        .info a {
+            text-decoration: none;
+            font-family: poppins;
+            font-weight: 500;
+            font-size: 2rem;
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: up;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 1rem #11101058;
+            border-radius: 10px;
+            display: block;
+            outline: none;
+            border: none;
+            background-image: linear-gradient(to right, rgb(202, 116, 29)
+             0%, #63f30a 91%, #4dff00fb 100%);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            gap: 30rem;
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        li a {
+            color: black;
+            text-decoration: none;
+            font-family: poppins;
+            font-size: 2.5rem;
+        }
+
+        .info :hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: green;
+        }
+
+        /* header fin */
+
+        /* formulaire */
+        /* Conteneur Global */
+.akwaba-form-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    margin-top: 10%;
+}
+
+.akwaba-form-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-top: 5px solid #006b3f; /* Vert National */
+}
+
+/* En-tête du Formulaire */
+.akwaba-form-header {
+    background: #f9f9f9;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.akwaba-form-header h2 {
+    margin: 0;
+    color: #006b3f;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.akwaba-form-header p {
+    margin: 5px 0 0;
+    color: #FF8C00; /* Orange National */
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* Corps du Formulaire */
+.akwaba-main-form {
+    padding: 30px;
+}
+
+.akwaba-input-group {
+    margin-bottom: 20px;
+}
+
+.akwaba-input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2c3e50;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+.akwaba-input-group input, 
+.akwaba-input-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #333;
+    transition: all 0.3s ease;
+    box-sizing: border-box; /* Important pour le padding */
+}
+
+.akwaba-input-group input:focus, 
+.akwaba-input-group textarea:focus {
+    border-color: #006b3f;
+    outline: none;
+    background: #f0fdf4; /* Teinte légère de vert au focus */
+}
+
+/* Bouton d'envoi */
+.akwaba-submit-btn {
+    width: 100%;
+    padding: 15px;
+    background: #FF8C00; /* Orange National */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+    margin-top: 10px;
+}
+
+.akwaba-submit-btn:hover {
+    background: #e67e22;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(230, 126, 34, 0.3);
+}
+
+.akwaba-submit-btn:active {
+    transform: translateY(0);
+}

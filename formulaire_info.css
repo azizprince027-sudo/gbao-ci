@@ -211,3 +211,63 @@
 .akwaba-submit-btn:active {
     transform: translateY(0);
 }
+
+@media screen and (max-width: 768px) {
+    
+    html {
+        /* On réduit la base de 10px à 8px pour réduire proportionnellement tout le site */
+        font-size: 50%; 
+    }
+
+/* Header */
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .gbao {
+        width: 8rem;
+        height: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    nav ul {
+        gap: 2rem;
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+
+    li a {
+        font-size: 2rem;
+    }
+
+    .info {
+        width: 15rem;
+    }
+
+    /* Hero Section */
+    .hero1 {
+        height: 80rem;
+    }
+
+    .T1 {
+        width: 95%;
+    }
+
+    .T1 h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .T3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Tbb {
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+    }

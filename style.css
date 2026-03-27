@@ -1056,6 +1056,217 @@
         }
 /* fin du code aceuille */
 
+/* ============================================================
+   RESPONSIVE DESIGN - GBAO CI
+   ============================================================ */
 
+/* --- TABLETTE (Max 1024px) --- */
+@media screen and (max-width: 1024px) {
+    header {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    nav ul {
+        gap: 5rem; /* Réduction de l'espace entre les liens */
+    }
+
+    .gbao {
+        width: 15%; /* Logo plus large sur tablette */
+    }
+
+    .bg {
+        height: auto; /* Permet aux cartes de s'empiler si besoin */
+    }
+
+    .bc3 {
+        width: 45%; /* 2 cartes par ligne au lieu de 3 */
+        margin-bottom: 3rem;
+    }
+
+    .A3 {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .a3, .aa3, .aa4 {
+        width: 45%;
+        margin-bottom: 3rem;
+    }
+}
+
+/* --- MOBILE (Max 768px) --- */
+@media screen and (max-width: 768px) {
+    
+    /* Header & Navigation */
+   /* Header */
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .gbao {
+        width: 8rem;
+        height: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    nav ul {
+        gap: 2rem;
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+
+    li a {
+        font-size: 2rem;
+    }
+
+    .info {
+        width: 15rem;
+    }
+
+    /* Hero Section */
+    .hero1 {
+        height: 80rem;
+    }
+
+    .T1 {
+        width: 95%;
+    }
+
+    .T1 h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .T3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Tbb {
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+    /* Sections (Concours & Bourses) */
+    .sect1, .sect2, .sect3 {
+        height: auto;
+        padding-bottom: 5rem;
+    }
+
+    .txt1 h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .bg, .A3, .C1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bc3, .a3, .aa3, .aa4, .c1 {
+        width: 90%;
+        margin-top: 3rem;
+    }
+
+    .btc1, .btc111, .CC11 {
+        width: 70%;
+    }
+
+
+    .bc3 {
+        width: 90%; /* Les cartes prennent presque toute la largeur */
+        height: 60rem; /* Hauteur fixe pour les cartes sur mobile */
+    }
+
+    .ba1 h1 {
+        font-size: 3.5rem;
+    }
+
+    .ba1 p {
+        font-size: 2.2rem;
+    }
+
+    /* Bouton principal */
+    .btc1 {
+        width: 80%;
+        height: 8rem;
+    }
+
+
+    /* Section 2 (Cartes Pays) */
+    .sect2 {
+        height: auto;
+        padding-bottom: 4rem;
+    }
+
+    .A3 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .a3, .aa3, .aa4 {
+        width: 90%;
+        height: 35rem; /* On stabilise la hauteur des cartes */
+        margin-top: 3rem;
+    }
+
+    .btc111 {
+        width: 80%;
+        height: 8rem;
+    }
+
+    .C1 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 3rem;
+    }
+
+    .c1 {
+        width: 90%; /* 1 carte par ligne sur mobile */
+        height: auto; /* On laisse le texte respirer */
+        padding-bottom: 2rem;
+    }
+
+    .cc1, .cc22, .cc33 {
+        height: 25rem; /* On réduit la taille de l'image sur mobile */
+    }
+
+    .cc2 h1 {
+        font-size: 2.8rem;
+    }
+
+    .cc2 p {
+        font-size: 1.8rem;
+        padding: 0 2rem;
+    }
+
+    /* Footer */
+    footer {
+        height: auto;
+        padding: 4rem 2rem;
+    }
+
+    .F1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .f1, .f2, .f3 {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .logo {
+        width: 8rem;
+        margin: 0 auto;
+    }
+    
+
+}
 
         

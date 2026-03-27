@@ -504,3 +504,144 @@
         }
 /* fin du code aceuille */
 
+/* ============================================================
+   RESPONSIVE DESIGN - GBAO CI
+   ============================================================ */
+
+/* --- TABLETTE (Max 1024px) --- */
+@media screen and (max-width: 1024px) {
+    header {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    nav ul {
+        gap: 10rem; /* Réduction de l'espace sur tablette */
+    }
+
+    .bc3 {
+        width: 45%; /* On passe à 2 colonnes au lieu de 3 */
+        margin-bottom: 5rem;
+    }
+
+    .T1 {
+        width: 80%;
+    }
+}
+
+/* --- MOBILE (Max 768px) --- */
+@media screen and (max-width: 768px) {
+    
+    /* Global : On force le passage en colonne */
+    html {
+        font-size: 55%; /* On réduit légèrement la base pour mobile */
+    }
+
+    /* Header */
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .gbao {
+        width: 8rem;
+        height: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    nav ul {
+        gap: 2rem;
+        flex-direction: row;
+        margin-bottom: 2rem;
+    }
+
+    li a {
+        font-size: 2rem;
+    }
+
+    .info {
+        width: 15rem;
+    }
+
+    /* Hero Section */
+    .hero1 {
+        height: 80rem;
+    }
+
+    .T1 {
+        width: 95%;
+    }
+
+    .T1 h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .T3 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Tbb {
+        width: 80%;
+        margin-top: 2rem;
+    }
+
+    /* Section Concours (.sect1) */
+    .sect1 {
+        height: auto; /* CRITIQUE : Libère la hauteur pour que les cartes s'empilent */
+        padding-bottom: 5rem;
+    }
+
+    .txt1 h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .bg {
+        flex-direction: column; /* Empilement vertical des cartes */
+        height: auto;
+    }
+
+    .bc3 {
+        width: 90%; /* Les cartes prennent presque toute la largeur */
+        height: 60rem; /* Hauteur fixe pour les cartes sur mobile */
+    }
+
+    .ba1 h1 {
+        font-size: 3.5rem;
+    }
+
+    .ba1 p {
+        font-size: 2.2rem;
+    }
+
+    /* Bouton principal */
+    .btc1 {
+        width: 80%;
+        height: 8rem;
+    }
+
+    /* Footer */
+    footer {
+        height: auto;
+        padding: 3rem 1rem;
+    }
+
+    .F1 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .f1, .f2, .f3 {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 30%;
+        margin: 0 auto;
+    }
+}
